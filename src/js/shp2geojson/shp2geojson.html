@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script src="./stream.js"></script>
+    <script src="./shapefile.js"></script>
+    <script src="./dbf.js"></script>
+
+
+    <input id="shp" type="file" name=".shp" placeholder="请选择shp文件" style="margin-left: 20px;margin-top: 20px;"/>
+    <input id="dbf" type="file" name=".dbf" style="display: none;"/>
+    <button id="ok" onmousedown="okDomMousedown()" style="margin-top: 30px;margin-left: 20px;">确定</button>
+    <button id="cancle" style="margin-top: 30px;margin-left: 20px;">取消</button>
+
+    <script src="./loadshp.js"></script>
+</body>
+</html>
