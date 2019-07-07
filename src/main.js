@@ -3,6 +3,11 @@ import App from './App.vue'
 import iView from 'iview';
 
 import 'iview/dist/styles/iview.css';
+
+// 引入echarts
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts
 //import VueRouter from 'vue-router'
 
 //Vue.use(VueRouter)

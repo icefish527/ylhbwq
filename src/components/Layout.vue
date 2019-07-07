@@ -26,7 +26,7 @@ import Chart from  '../components/chart.vue';
 
 export default {
         name: 'layout',
-        components:{Chart},
+        components:{Chart}
 };
 </script>
 <style>

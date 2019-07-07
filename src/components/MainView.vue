@@ -10,12 +10,11 @@
 <script>
 import CesiumViewer from "../components/CesiumViewer.vue";
 import Layout from "../components/Layout.vue";
+//import Hello from "../components/Hello.vue";
 
 export default {
   name: "app",
-  components: {
-    CesiumViewer,
-    Layout
+  components: {CesiumViewer,Layout
   }
 };
 </script>
