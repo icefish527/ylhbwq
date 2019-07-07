@@ -1,6 +1,6 @@
 <template>
     <div id="cesiumContainer">
-        <button @click="shp2geojsonShowHandle" id="btnId">加载shp数据</button>
+        <!-- <button @click="shp2geojsonShowHandle" id="btnId">加载shp数据</button> -->
         <shp2geojson v-show="shp2geojsonShow"></shp2geojson>
     </div>
 </template>
